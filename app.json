@@ -1,0 +1,9 @@
+{
+  "name": "Simple Thank You app",
+  "description": "A Simple php app that reply thank you to users",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
