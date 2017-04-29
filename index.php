@@ -14,7 +14,7 @@
 <head>
 	<title>Grazie</title>
 	<style type="text/css">
-		body {
+		html, body {
 			width: 100%;
 			height: 100%;
 		}
@@ -25,13 +25,16 @@
 		}
 
 		.image {
-			width: 100%;
+			width: 80%;
+			margin: 0 auto;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<img class="image" src="<?= $image ?>" alt="">
+		<br />
+		<p align="center">Grazie di Cuore!!! Ricarica la pagina per altro!!!</p>
 	</div>
 </body>
 </html>
